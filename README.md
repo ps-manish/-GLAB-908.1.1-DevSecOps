@@ -1,1 +1,1 @@
-# -GLAB-908.1.1-DevSecOps
+# GLAB-908.1.1-DevSecOps
