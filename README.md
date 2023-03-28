@@ -21,7 +21,7 @@ Before starting this lab, you should have:
 ### Lab steps
 
 - [ ] Step 1: Fork and clone the lab repository
-  Fork the lab repository from https://github.com/example/devsecops-lab to your GitHub account.
+  Fork the lab repository from https://github.com/ps-manish/GLAB-908.1.1-DevSecOps to your GitHub account.
   Clone the forked repository to your local machine using Git.
   
 - [ ] Step 2: Create an Issue for a security requirement
