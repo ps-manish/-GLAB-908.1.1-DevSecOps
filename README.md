@@ -8,7 +8,7 @@ Imagine that you are taking a car ride with a developer, a Security Officer, and
 
 ***Developer***: Well, we need to start by identifying potential security risks and vulnerabilities in our code. We can use tools like static analysis and penetration testing to help us find these issues early on.
 
-******Security Officer:****** And we need to make sure that security is a top priority throughout the entire software development lifecycle. We can do this by setting up policies and procedures that prioritize security and compliance.
+***Security Officer:*** And we need to make sure that security is a top priority throughout the entire software development lifecycle. We can do this by setting up policies and procedures that prioritize security and compliance.
 
 ***Infrastructure Guy*** Plus, we need to make sure that our infrastructure is designed with security in mind. We can use tools like firewalls and intrusion detection systems to protect our networks and data.
 
