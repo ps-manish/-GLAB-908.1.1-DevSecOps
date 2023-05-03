@@ -33,7 +33,7 @@ Imagine that you are taking a car ride with a developer, a Security Officer, and
 
 ## The DevSecOps Browser Setup
 
-In this classroom activity, you will play the roles of the Developer, ***Security Officer:***, and Infrastructure Guy from the DevSecOps car ride. You will work together to set up a web browser that meets security requirements while also being functional for development purposes.
+In this classroom activity, you will play the roles of the Developer, Security Officer, and Infrastructure Guy from the DevSecOps car ride. You will work together to set up a web browser that meets security requirements while also being functional for development purposes.
 
 ### Instructions
 
@@ -41,11 +41,11 @@ In this classroom activity, you will play the roles of the Developer, ***Securit
 
 - [ ] The Developer will download and install a web browser of their choice that meets their development needs. They will need to check that the browser is up-to-date and configured correctly.
 
-- [ ] The ***Security Officer:*** will review the browser configuration and block any websites that pose a security risk. They will also implement any other security measures that are necessary.
+- [ ] The Security Officer will review the browser configuration and block any websites that pose a security risk. They will also implement any other security measures that are necessary.
 
 - [ ] The Developer will test the browser to ensure that it meets their needs and that all necessary websites are accessible.
 
-- [ ] The Infrastructure Guy and ***Security Officer:*** will continue to monitor the computer and the browser to ensure that they remain secure and functional.
+- [ ] The Infrastructure Guy and Security Officer will continue to monitor the computer and the browser to ensure that they remain secure and functional.
 
 ### Questions
 
