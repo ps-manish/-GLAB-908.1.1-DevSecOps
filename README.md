@@ -1,73 +1,54 @@
 # GLAB-908.1.1-DevSecOps
 
-## Overview
-In this lab, you'll learn how to use GitHub as a tool for implementing DevSecOps practices in your software development workflow. DevSecOps is a set of principles and practices that integrates security into the software development lifecycle, from planning and coding to testing and deployment.
+## The DevSecOps Car Ride
 
-You'll use GitHub features such as Issues, Pull Requests, Actions, and Packages to implement some basic DevSecOps practices, such as:
+Imagine that you are taking a car ride with a developer, a security officer, and an infrastructure guy. As you drive along, you discuss the challenges of implementing DevSecOps in your organization. Here's a transcript of your conversation:
 
-- Writing secure code
-- Managing security vulnerabilities
-- Automating security testing
-- Using secure dependencies
-- Protecting secrets
+You: So, how do we make sure that security is integrated into the development process from the very beginning?
 
-### Prerequisites
-Before starting this lab, you should have:
+Developer: Well, we need to start by identifying potential security risks and vulnerabilities in our code. We can use tools like static analysis and penetration testing to help us find these issues early on.
 
-- A GitHub account
-- Basic knowledge of Git and GitHub
-- Basic knowledge of software development and security concepts
+Security Officer: And we need to make sure that security is a top priority throughout the entire software development lifecycle. We can do this by setting up policies and procedures that prioritize security and compliance.
 
-### Lab steps
+Infrastructure Guy: Plus, we need to make sure that our infrastructure is designed with security in mind. We can use tools like firewalls and intrusion detection systems to protect our networks and data.
 
-- [ ] Step 1: Fork and clone the lab repository
-  Fork the lab repository from https://github.com/ps-manish/GLAB-908.1.1-DevSecOps to your GitHub account.
-  Clone the forked repository to your local machine using Git.
-  
-- [ ] Step 2: Create an Issue for a security requirement
-  In the repository, click on the "Issues" tab.
-  Click on the "New issue" button.
-  Write a description of a security requirement for your project (e.g., "The system should prevent SQL injection attacks").
-  Assign the issue to yourself or a team member.
-  Add appropriate labels and milestones if needed.
-  
-- [ ] Step 3: Write secure code
-  Open the file src/main/java/com/example/HelloController.java.
-  Add a code snippet to prevent SQL injection attacks (e.g., using prepared statements or parameterized queries).
-  Commit and push the changes to your forked repository.
-  
-- [ ] Step 4: Manage security vulnerabilities
-  Go to the "Security" tab in your repository.
-  Check if there are any detected security vulnerabilities.
-  If there are, create an Issue to track the vulnerability.
-  Update the vulnerable dependency to a secure version.
-  Commit and push the changes to your forked repository.
-  
-- [ ] Step 5: Automate security testing
-  Create a new file test/security-test.sh in your repository.
-  Write a shell script that performs a security test on your project (e.g., using a static code analyzer or a vulnerability scanner).
-  Add the script as a GitHub Action in .github/workflows/security.yml.
-  Test the Action by triggering a manual run or pushing new changes.
-  
-- [ ] Step 6: Use secure dependencies
-  Go to the "Dependencies" tab in your repository.
-  Check if there are any outdated or insecure dependencies.
-  If there are, update the dependencies to a secure version.
-  Commit and push the changes to your forked repository.
-  
-- [ ] Step 7: Protect secrets
-  Create a new secret in your repository settings (e.g., a database password or an API key).
-  Modify the src/main/resources/application.properties file to use the secret value (e.g., using the ${SECRET_NAME} syntax).
-  Add a GitHub Action in .github/workflows/build.yml that uses the secret value.
-  Test the Action by triggering a manual run or pushing new changes.
-  
-### Lab questions
-After completing the lab, try answering these questions in a sentence each
+You: That all makes sense, but how do we make sure that everyone is on the same page?
 
-1. What is DevSecOps and why is it important?
-2. How can you use GitHub Issues to manage security requirements?
-3. How can you write secure code in a GitHub repository?
-4. How can you manage security vulnerabilities in a GitHub repository?
-5. How can you automate security testing using GitHub Actions?
-6. How can you use the "Dependencies" and "Security" tabs in a GitHub repository to manage secure dependencies?
-7. How can you protect secrets in a GitHub repository using GitHub Actions?
+Developer: We need to establish a culture of collaboration and communication between the development, security, and infrastructure teams. This will help us work together more effectively and ensure that security is integrated into everything we do.
+
+Security Officer: And we need to make sure that everyone understands the importance of security and compliance. This means providing training and education to all employees, not just the security team.
+
+Infrastructure Guy: And we need to make sure that our infrastructure is designed to be easily managed and updated. This will make it easier to keep everything secure and up-to-date.
+
+You: Okay, that all sounds good. So, what can we do to get started?
+
+Developer: We can start by implementing some basic security measures in our development process. For example, we can use code reviews and testing to catch security issues early on.
+
+Security Officer: And we can set up policies and procedures to ensure that security is always a top priority. We can also conduct regular security audits to make sure that everything is working properly.
+
+Infrastructure Guy: And we can make sure that our infrastructure is designed with security in mind. This means using secure protocols and encryption, as well as monitoring our systems for any unusual activity.
+
+You: Great, let's divide into three teams now and work on some activities related to DevSecOps.
+
+
+## The DevSecOps Browser Setup
+
+In this classroom activity, you will play the roles of the Developer, Security Officer, and Infrastructure Guy from the DevSecOps car ride. You will work together to set up a web browser that meets security requirements while also being functional for development purposes.
+
+### Instructions
+
+- [ ] The Infrastructure Guy will provide a computer for the Developer to use. They will need to estimate the resources required to run a web browser, such as CPU and RAM, and ensure that the computer meets these requirements.
+
+- [ ] The Developer will download and install a web browser of their choice that meets their development needs. They will need to check that the browser is up-to-date and configured correctly.
+
+- [ ] The Security Officer will review the browser configuration and block any websites that pose a security risk. They will also implement any other security measures that are necessary.
+
+- [ ] The Developer will test the browser to ensure that it meets their needs and that all necessary websites are accessible.
+
+- [ ] The Infrastructure Guy and Security Officer will continue to monitor the computer and the browser to ensure that they remain secure and functional.
+
+### Questions
+
+- Why is it important to consider security when setting up a web browser for development purposes?
+- What are some potential security risks associated with using a web browser for development?
+- What are some best practices for configuring a web browser for development purposes while also ensuring security?
