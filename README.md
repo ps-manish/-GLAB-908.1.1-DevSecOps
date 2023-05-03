@@ -2,7 +2,7 @@
 
 ## The DevSecOps Car Ride
 
-Imagine that you are taking a car ride with a developer, a ***Security Officer:***, and an infrastructure guy. As you drive along, you discuss the challenges of implementing DevSecOps in your organization. Here's a transcript of your conversation:
+Imagine that you are taking a car ride with a developer, a Security Officer, and an infrastructure guy. As you drive along, you discuss the challenges of implementing DevSecOps in your organization. Here's a transcript of your conversation:
 
 ***You***: So, how do we make sure that security is integrated into the development process from the very beginning?
 
